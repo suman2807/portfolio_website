@@ -54,7 +54,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold mb-4">Who am I?</h3>
             <p className="text-muted-foreground mb-4">
-              I'm a Computer Science student at SRM University–AP with a CGPA of 9.28. I'm passionate about web
+              I'm a Computer Science student at SRM University–AP with a CGPA of 9.39. I'm passionate about web
               development, data science, and machine learning.
             </p>
             <p className="text-muted-foreground mb-4">

@@ -16,9 +16,9 @@ export default function Projects() {
       title: "CampusConnect – SRM University AP",
       description:
         "A unified platform to enhance student collaboration and event coordination. Enables students to organize sports activities, coordinate group travel, and create gaming sessions while facilitating real-time connections.",
-      image: "/p1.jpg?height=300&width=500",
+      image: "/p1.png?height=300&width=500",
       tags: ["React.js", "Node.js", "MongoDB", "Express.js"],
-      github: "https://github.com/derangee/Campus-Connect",
+      github: "https://github.com/suman2807/CampusConnect",
       demo: null,
     },
     {
@@ -31,30 +31,39 @@ export default function Projects() {
       demo: null,
     },
     {
-      title: "Netra - AI Construction Monitoring Tool",
+      title: "EduPulse - Online Learning Portal",
       description:
-        "An AI-powered tool to monitor building construction progress using image analysis. Leverages machine learning algorithms to track construction stages and compute real-time percentage completion.",
+        "A modern, full-stack online learning platform built with React, TypeScript, Node.js, and MongoDB. Features user authentication, role-based access, course management, and real-time progress tracking.",
       image: "/p3.png?height=300&width=500",
-      tags: ["Python", "Machine Learning", "Image Analysis", "Web Interface"],
-      github: "https://github.com/suman2807/Neetra",
+      tags: ["React", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Express"],
+      github: "https://github.com/suman2807/edupulse",
       demo: null,
     },
     {
-      title: "Flipkart Clone",
+      title: "AgriMitra – Smart Farming Assistant",
       description:
-        "An e-commerce website inspired by Flipkart's UI using HTML, CSS, and JavaScript. Includes basic web pages and navigation with a simple and user-friendly design.",
+        "An AI-powered assistant for smart farming, built with Next.js and Google AI Genkit. It empowers farmers with actionable insights for better yields and sustainable agriculture—all through a clean, authentication-free interface.",
       image: "/p4.png?height=300&width=500",
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/suman2807/flipkart_clone",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Google AI Genkit"],
+      github: "https://github.com/suman2807/AgriMitra",
       demo: null,
     },
     {
-      title: "Weather Forecast App",
+      title: "Shopzy - E-Commerce Platform",
       description:
-        "A simple weather forecast application using HTML, CSS, and JavaScript. Allows users to search for weather conditions by city name or use their current location.",
+        "A modern full-stack e-commerce application built with the MERN stack featuring user authentication, shopping cart, Stripe payment integration, admin dashboard, and Redis caching for performance.",
       image: "/p5.png?height=300&width=500",
-      tags: ["HTML", "CSS", "JavaScript", "Weather API"],
-      github: "https://github.com/suman2807/weather",
+      tags: ["React", "Node.js", "Express", "MongoDB", "Redis", "Stripe", "Tailwind CSS"],
+      github: "https://github.com/suman2807/shopzy",
+      demo: null,
+    },
+    {
+      title: "Wave - Video Calling & Language Exchange",
+      description:
+        "Real-time video calling and chat platform for language learners to connect with native speakers worldwide. Features 1-on-1 and group video calls, messaging, friend system, and 32 customizable UI themes.",
+      image: "/p6.png?height=300&width=500",
+      tags: ["React", "Express.js", "MongoDB", "JWT", "Stream API", "Tailwind CSS"],
+      github: "https://github.com/suman2807/wave",
       demo: null,
     },
   ]
@@ -106,7 +115,7 @@ export default function Projects() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-muted-foreground mb-4 line-clamp-3">{project.description}</p>
+                <p className="text-muted-foreground mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span key={tag} className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">

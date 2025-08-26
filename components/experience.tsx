@@ -12,11 +12,18 @@ export default function Experience() {
 
   const experiences = [
     {
+      title: "MERN Full Stack Intern",
+      company: "Edubot",
+      period: "June 2025 – July 2025",
+      description:
+        "Worked on building full-stack web applications using MongoDB, Express, React, and Node, implementing CRUD operations, user authentication, and responsive UI components. Gained hands-on experience in real-world project development and team collaboration.",
+    },
+    {
       title: "AI and Machine Learning Intern",
       company: "SRM University – AP (with Edunet Foundation)",
       period: "June 2024 – July 2024",
       description:
-        "During this 8-week internship, I gained hands-on experience in building and optimizing machine learning models using the IBM SkillsBuild Platform. I focused on data preprocessing and feature engineering to enhance model performance, while also working with tools like TensorFlow and scikit-learn to implement AI-driven solutions.",
+        "EduPulse - Online Learning Portal: A modern, full-stack online learning platform built with React, TypeScript, Node.js, and MongoDB. Features include user authentication with JWT, role-based access for students/instructors/admins, course management, enrollment system, responsive design with Tailwind CSS, and real-time progress tracking. Built with React 18, Vite, Express, MongoDB, and deployed with comprehensive API endpoints for authentication, courses, and enrollments.",
     },
   ]
 

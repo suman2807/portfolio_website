@@ -14,7 +14,7 @@ export default function Skills() {
     {
       title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Python", "C", "C++", "JavaScript"],
+      skills: ["Python", "C", "C++", "Java", "JavaScript"],
     },
     {
       title: "Web Development",
@@ -24,7 +24,7 @@ export default function Skills() {
     {
       title: "Machine Learning",
       icon: <Cpu className="h-6 w-6" />,
-      skills: ["scikit-learn", "TensorFlow (Basics)", "NumPy", "Pandas", "SciPy", "Data Preprocessing"],
+      skills: ["NumPy", "Pandas", "SciPy", "Data Preprocessing","Feature Engineering", "Model Evaluation" ],
     },
     {
       title: "Tools",
