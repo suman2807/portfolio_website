@@ -15,7 +15,7 @@ export default function Education() {
       degree: "B.Tech in Computer Science and Engineering",
       institution: "SRM University–AP",
       period: "2023 - Present",
-      grade: "CGPA: 9.28",
+      grade: "CGPA: 9.39",
     },
     {
       degree: "Class 12th, CBSE Board",
