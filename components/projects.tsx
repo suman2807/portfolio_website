@@ -40,7 +40,7 @@ export default function Projects() {
       demo: null,
     },
     {
-      title: "AgriMitra – Smart Farming Assistant",
+      title: "AgriMitra – AI Powered Smart Farming Assistant",
       description:
         "An AI-powered assistant for smart farming, built with Next.js and Google AI Genkit. It empowers farmers with actionable insights for better yields and sustainable agriculture—all through a clean, authentication-free interface.",
       image: "/p4.png?height=300&width=500",
