@@ -60,7 +60,7 @@ export default function About() {
             <p className="text-muted-foreground mb-4">
               My journey in tech began with web development, creating responsive and user-friendly applications. I've
               since expanded my skills to include data science and machine learning, always eager to learn and apply
-              cutting-edge technologies to real-world challenges.
+              cutting-edge technologies to real-world challenges. 
             </p>
             <p className="text-muted-foreground mb-6">
               I believe in continuous learning and problem-solving. Whether it's building a web application or
