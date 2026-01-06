@@ -24,7 +24,7 @@ export default function Skills() {
     {
       title: "Machine Learning",
       icon: <Cpu className="h-6 w-6" />,
-      skills: ["NumPy", "Pandas", "SciPy", "Data Preprocessing","Feature Engineering", "Model Evaluation" ],
+      skills: ["NumPy", "Pandas", "SciPy", "Data Preprocessing", "Model Evaluation" ],//"Feature Engineering"
     },
     {
       title: "Tools",
