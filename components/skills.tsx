@@ -14,7 +14,7 @@ export default function Skills() {
     {
       title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Python", "C", "C++", "Java", "JavaScript"],
+      skills: ["Python", "C", "C++", "Java"],
     },
     {
       title: "Web Development",
